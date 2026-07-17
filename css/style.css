@@ -148,6 +148,7 @@ p{ margin:0 0 1em; }
 }
 .card h3{ font-size:1.3rem; color:var(--granate-dark); }
 .card p{ color:var(--gris); margin-bottom:0; }
+.card-centered{ grid-column:1 / -1; justify-self:center; width:100%; max-width:calc(50% - 11px); }
 .note-small{ text-align:center; color:var(--gris); font-style:italic; margin-top:30px; }
 
 /* ---------- Work packages ---------- */
@@ -168,6 +169,20 @@ p{ margin:0 0 1em; }
 }
 .obj h3{ font-size:1.15rem; color:var(--granate-dark); margin-bottom:6px; }
 .obj p{ color:var(--gris); margin:0; }
+
+/* ---------- Coordinació destacada ---------- */
+.coord-highlight{
+  max-width:520px; margin:0 auto; background:#fff; text-align:center;
+  border-radius:var(--radius); border:1px solid var(--linea); border-top:5px solid var(--dorado);
+  box-shadow:var(--sombra); padding:30px 34px; position:relative; z-index:2;
+}
+.coord-highlight-label{
+  font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:var(--dorado); font-weight:700; margin-bottom:8px;
+}
+.coord-highlight-name{
+  font-family:var(--font-titulo); font-size:1.6rem; font-weight:700; color:var(--granate-dark);
+}
+.coord-highlight-role{ font-size:.9rem; color:var(--gris); margin-top:4px; }
 
 /* ---------- Researchers ---------- */
 .challenge-group{ margin-bottom:56px; }
@@ -262,6 +277,7 @@ p{ margin:0 0 1em; }
   .hero-logo{ order:-1; }
   .stats{ grid-template-columns:repeat(2,1fr); }
   .cards-grid{ grid-template-columns:1fr; }
+  .card-centered{ max-width:100%; }
   .wp-grid{ grid-template-columns:repeat(2,1fr); }
   .obj-grid{ grid-template-columns:1fr; }
   .people-grid{ grid-template-columns:repeat(2,1fr); }

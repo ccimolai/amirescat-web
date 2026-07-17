@@ -82,6 +82,7 @@ const TRANSLATIONS = {
     "inv.eix.comm": "Comunicació",
     "inv.eix.eco": "Economia",
     "inv.coord.title": "Coordinació del projecte",
+    "inv.coord.role": "Investigadora Principal (IP)",
 
     /* ---- Contacte ---- */
     "contacte.hero.eyebrow": "Contacte",
@@ -215,6 +216,7 @@ const TRANSLATIONS = {
     "inv.eix.comm": "Comunicación",
     "inv.eix.eco": "Economía",
     "inv.coord.title": "Coordinación del proyecto",
+    "inv.coord.role": "Investigadora Principal (IP)",
 
     "contacte.hero.eyebrow": "Contacto",
     "contacte.hero.title": "Hablemos",
@@ -344,6 +346,7 @@ const TRANSLATIONS = {
     "inv.eix.comm": "Communication",
     "inv.eix.eco": "Economics",
     "inv.coord.title": "Project coordination",
+    "inv.coord.role": "Principal Investigator (PI)",
 
     "contacte.hero.eyebrow": "Contact",
     "contacte.hero.title": "Let's talk",

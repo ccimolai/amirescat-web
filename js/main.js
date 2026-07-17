@@ -76,11 +76,9 @@ function renderResearchers(lang) {
     const peopleHtml = group.people
       .map((p) => {
         const bio = p.bio[lang] || p.bio[DEFAULT_LANG];
-        const liderHtml = p.lider ? `<span class="lider">${dict["inv.lider"]}</span><br>` : "";
         return `
           <div class="person">
             <div class="name">${p.name}</div>
-            ${liderHtml}
             <p>${bio}</p>
           </div>`;
       })
