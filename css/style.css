@@ -119,7 +119,7 @@ p{ margin:0 0 1em; }
 
 /* ---------- Stats ---------- */
 .stats{
-  display:grid; grid-template-columns:repeat(4,1fr);
+  display:grid; grid-template-columns:repeat(3,1fr);
   gap:1px; background:var(--linea); border:1px solid var(--linea);
   border-radius:var(--radius); overflow:hidden; margin-top:56px;
 }
@@ -275,7 +275,7 @@ p{ margin:0 0 1em; }
 @media (max-width: 900px){
   .hero-grid{ grid-template-columns:1fr; }
   .hero-logo{ order:-1; }
-  .stats{ grid-template-columns:repeat(2,1fr); }
+  .stats{ grid-template-columns:repeat(3,1fr); }
   .cards-grid{ grid-template-columns:1fr; }
   .card-centered{ max-width:100%; }
   .wp-grid{ grid-template-columns:repeat(2,1fr); }

@@ -18,7 +18,7 @@ const TRANSLATIONS = {
     "hero.cta1": "Descobreix els reptes",
     "hero.cta2": "Coneix l'equip",
 
-    "stats.1.num": "+20", "stats.1.label": "investigadors/es",
+    "stats.1.num": "+20", "stats.1.label": "investigadors/es de diferents grups de recerca",
     "stats.2.num": "+8", "stats.2.label": "grups SGR coordinats",
     "stats.3.num": "5", "stats.3.label": "reptes territorials",
     "stats.4.num": "1", "stats.4.label": "Living Lab",
@@ -74,7 +74,7 @@ const TRANSLATIONS = {
     /* ---- Investigadors ---- */
     "inv.hero.eyebrow": "L'equip",
     "inv.hero.title": "Investigadors i investigadores",
-    "inv.hero.lead": "Més de 20 investigadors/es de la Universitat Rovira i Virgili, organitzats pels 5 reptes territorials i 4 eixos transversals del projecte.",
+    "inv.hero.lead": "Més de 20 investigadors/es de la Universitat Rovira i Virgili, de diferents grups de recerca, treballant conjuntament en el projecte.",
     "inv.lider": "Líder",
     "inv.transversals": "Eixos transversals",
     "inv.eix.dret": "Dret i Política Pública",
@@ -139,6 +139,8 @@ const TRANSLATIONS = {
     /* ---- Bloc de contacte (home) ---- */
     "home.info.eyebrow": "Sobre l'institut",
     "home.info.title": "Qui impulsa el projecte",
+    "home.info.item1.label": "Research Institut",
+    "home.info.item3.label": "Agents territorials",
   },
 
   es: {
@@ -154,7 +156,7 @@ const TRANSLATIONS = {
     "hero.cta1": "Descubre los retos",
     "hero.cta2": "Conoce al equipo",
 
-    "stats.1.num": "+20", "stats.1.label": "investigadores/as",
+    "stats.1.num": "+20", "stats.1.label": "investigadores/as de distintos grupos de investigación",
     "stats.2.num": "+8", "stats.2.label": "grupos SGR coordinados",
     "stats.3.num": "5", "stats.3.label": "retos territoriales",
     "stats.4.num": "1", "stats.4.label": "Living Lab",
@@ -208,7 +210,7 @@ const TRANSLATIONS = {
 
     "inv.hero.eyebrow": "El equipo",
     "inv.hero.title": "Investigadores e investigadoras",
-    "inv.hero.lead": "Más de 20 investigadores/as de la Universitat Rovira i Virgili, organizados por los 5 retos territoriales y 4 ejes transversales del proyecto.",
+    "inv.hero.lead": "Más de 20 investigadores/as de la Universitat Rovira i Virgili, de distintos grupos de investigación, trabajando conjuntamente en el proyecto.",
     "inv.lider": "Líder",
     "inv.transversals": "Ejes transversales",
     "inv.eix.dret": "Derecho y Política Pública",
@@ -269,6 +271,8 @@ const TRANSLATIONS = {
 
     "home.info.eyebrow": "Sobre el instituto",
     "home.info.title": "Quién impulsa el proyecto",
+    "home.info.item1.label": "Research Institut",
+    "home.info.item3.label": "Agentes territoriales",
   },
 
   en: {
@@ -284,7 +288,7 @@ const TRANSLATIONS = {
     "hero.cta1": "Discover the challenges",
     "hero.cta2": "Meet the team",
 
-    "stats.1.num": "+20", "stats.1.label": "researchers",
+    "stats.1.num": "+20", "stats.1.label": "researchers from different research groups",
     "stats.2.num": "+8", "stats.2.label": "coordinated SGR groups",
     "stats.3.num": "5", "stats.3.label": "territorial challenges",
     "stats.4.num": "1", "stats.4.label": "Living Lab",
@@ -338,7 +342,7 @@ const TRANSLATIONS = {
 
     "inv.hero.eyebrow": "The team",
     "inv.hero.title": "Researchers",
-    "inv.hero.lead": "More than 20 researchers from Universitat Rovira i Virgili, organised by the project's 5 territorial challenges and 4 cross-cutting axes.",
+    "inv.hero.lead": "More than 20 researchers from Universitat Rovira i Virgili, from different research groups, working together on the project.",
     "inv.lider": "Lead",
     "inv.transversals": "Cross-cutting axes",
     "inv.eix.dret": "Law and Public Policy",
@@ -399,5 +403,7 @@ const TRANSLATIONS = {
 
     "home.info.eyebrow": "About the institute",
     "home.info.title": "Who drives the project",
+    "home.info.item1.label": "Research Institute",
+    "home.info.item3.label": "Territorial stakeholders",
   }
 };

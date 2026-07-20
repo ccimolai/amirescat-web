@@ -146,7 +146,11 @@ const RESEARCHERS = [
     titleKey: "inv.eix.clima",
     tagKey: null,
     people: [
-      { name: "Dr. Enric Aguilar", lider: true, bio: {
+      { name: "Dr. Enric Aguilar", lider: true, role: {
+        ca: "Investigador principal",
+        es: "Investigador principal",
+        en: "Principal investigator"
+      }, bio: {
         ca: "Director de l'IU-RESCAT. Climatòleg expert en dades climàtiques i homogeneïtzació. Codirector en cap de l'International Journal of Climatology.",
         es: "Director del IU-RESCAT. Climatólogo experto en datos climáticos y homogeneización. Codirector jefe del International Journal of Climatology.",
         en: "Director of IU-RESCAT. Climatologist specialising in climate data and homogenisation. Chief co-editor of the International Journal of Climatology."

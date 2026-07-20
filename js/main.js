@@ -47,49 +47,40 @@ function renderTeams() {
   container.innerHTML = TEAMS.map((t) => `<div class="team-chip">${t}</div>`).join("");
 }
 
+function stripTitleForSorting(name) {
+  // Quita "Dr. " / "Dra. " del principio para poder ordenar por el nombre real
+  return name.replace(/^(Dr\.|Dra\.)\s+/i, "");
+}
+
 function renderResearchers(lang) {
   const container = document.getElementById("researchers-container");
   if (!container || typeof RESEARCHERS === "undefined") return;
-  const dict = TRANSLATIONS[lang] || TRANSLATIONS[DEFAULT_LANG];
 
-  container.innerHTML = "";
-  let transversalHeadingAdded = false;
+  // Aplanamos todos los grupos en una única lista de personas
+  let allPeople = [];
   RESEARCHERS.forEach((group) => {
-    if (group.id.startsWith("eix-") && !transversalHeadingAdded) {
-      const h = document.createElement("h2");
-      h.style.color = "var(--granate-dark)";
-      h.style.marginBottom = "24px";
-      h.style.borderTop = "1px solid var(--linea)";
-      h.style.paddingTop = "40px";
-      h.textContent = dict["inv.transversals"];
-      container.appendChild(h);
-      transversalHeadingAdded = true;
-    }
-    const section = document.createElement("div");
-    section.className = "challenge-group";
-
-    const title = group.tagKey
-      ? `${dict[group.titleKey] || group.titleKey}`
-      : `${dict[group.titleKey] || group.titleKey}`;
-    const tagHtml = group.tagKey ? `<span class="tag">${dict[group.tagKey]}</span>` : "";
-
-    const peopleHtml = group.people
-      .map((p) => {
-        const bio = p.bio[lang] || p.bio[DEFAULT_LANG];
-        return `
-          <div class="person">
-            <div class="name">${p.name}</div>
-            <p>${bio}</p>
-          </div>`;
-      })
-      .join("");
-
-    section.innerHTML = `
-      <h2>${tagHtml} ${title}</h2>
-      <div class="people-grid">${peopleHtml}</div>
-    `;
-    container.appendChild(section);
+    group.people.forEach((p) => allPeople.push(p));
   });
+
+  // Orden alfabético por el nombre (ignorando "Dr./Dra." y acentos)
+  allPeople.sort((a, b) =>
+    stripTitleForSorting(a.name).localeCompare(stripTitleForSorting(b.name), "ca", { sensitivity: "base" })
+  );
+
+  const peopleHtml = allPeople
+    .map((p) => {
+      const bio = p.bio[lang] || p.bio[DEFAULT_LANG];
+      const roleHtml = p.role ? `<span class="lider">${p.role[lang] || p.role[DEFAULT_LANG]}</span><br>` : "";
+      return `
+        <div class="person">
+          <div class="name">${p.name}</div>
+          ${roleHtml}
+          <p>${bio}</p>
+        </div>`;
+    })
+    .join("");
+
+  container.innerHTML = `<div class="people-grid">${peopleHtml}</div>`;
 }
 
 function initMenu() {
