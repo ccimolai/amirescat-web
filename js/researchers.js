@@ -108,9 +108,9 @@ const RESEARCHERS = [
     tagKey: "ch5.tag",
     people: [
       { name: "Dr. Alexandre Fabregat Tomàs", lider: true, bio: {
-        ca: "Físic computacional especialitzat en dispersió de contaminants i qualitat de l'aire urbà, amb intel·ligència artificial aplicada a models físics. Premi d'Impacte Social URV (2021).",
-        es: "Físico computacional especializado en dispersión de contaminantes y calidad del aire urbano, con inteligencia artificial aplicada a modelos físicos. Premio de Impacto Social URV (2021).",
-        en: "Computational physicist specialising in pollutant dispersion and urban air quality, applying AI to physical models. URV Social Impact Award (2021)."
+        ca: "Professor d'Enginyeria Mecànica especialitzat en Dinàmica de Fluids Computacional, turbulència i aprenentatge automàtic. Premi d'Impacte Social URV (2021 i 2025).",
+        es: "Profesor de Ingeniería Mecánica especializado en Dinámica de Fluidos Computacional, turbulencia y aprendizaje automático. Premio de Impacto Social URV (2021 y 2025).",
+        en: "Professor of Mechanical Engineering specializing in Computational Fluid Dynamics, turbulence, and machine learning. URV Social Impact Award (2021 and 2025)."
       }},
       { name: "Dr. Albert Samper Sosa", lider: false, bio: {
         ca: "Arquitecte i doctor, expert en geometria fractal aplicada a l'arquitectura. Coordina l'àrea d'Expressió Gràfica a l'Escola d'Arquitectura de la URV.",
