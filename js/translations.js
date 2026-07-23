@@ -14,7 +14,7 @@ const TRANSLATIONS = {
 
     "hero.eyebrow": "URV · Camp de Tarragona · 2025–2028",
     "hero.title": "Fer del sud de Catalunya un territori resilient davant el canvi climàtic",
-    "hero.lead": "Més de 8 equips de recerca de la URV coordinats per dissenyar estratègies d'adaptació i mitigació davant el canvi climàtic, en col·laboració directa amb el territori.",
+    "hero.lead": "Diversos equips de recerca de la URV coordinats per dissenyar estratègies d'adaptació i mitigació davant el canvi climàtic, en col·laboració directa amb el territori.",
     "hero.cta1": "Descobreix els reptes",
     "hero.cta2": "Coneix l'equip",
 
@@ -167,7 +167,7 @@ const TRANSLATIONS = {
     "science.title": "Ciencia aplicada a lo que el territorio necesita",
     "science.lead": "Cada reto conecta disciplinas científicas con actores locales para co-diseñar soluciones reales frente al cambio climático en el sur de Cataluña.",
 
-    "ch1.tag": "CH1", "ch1.title": "Viticultura adaptada al clima",
+    "ch1.tag": "CH1", "ch1.title": "Vitivinicultura adaptada al clima",
     "ch1.text": "Estrategias para mantener la producción de vino frente a sequías y fenómenos extremos, combinando datos climáticos, prácticas innovadoras y gestión eficiente del suelo y el agua.",
     "ch2.tag": "CH2", "ch2.title": "Agua en un clima cambiante",
     "ch2.text": "Gestión sostenible e inclusiva del agua con enfoque One Health, favoreciendo la reutilización de aguas regeneradas y una gobernanza adaptativa.",
@@ -284,7 +284,7 @@ const TRANSLATIONS = {
 
     "hero.eyebrow": "URV · Camp de Tarragona · 2025–2028",
     "hero.title": "Making southern Catalonia a climate-resilient territory",
-    "hero.lead": "More than 8 URV research teams working together to design adaptation and mitigation strategies against climate change, in direct collaboration with the region.",
+    "hero.lead": "Various research teams working together to design adaptation and mitigation strategies against climate change, in direct collaboration with the region.",
     "hero.cta1": "Discover the challenges",
     "hero.cta2": "Meet the team",
 
