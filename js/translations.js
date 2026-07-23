@@ -23,13 +23,13 @@ const TRANSLATIONS = {
     "stats.3.num": "5", "stats.3.label": "reptes territorials",
     "stats.4.num": "1", "stats.4.label": "Living Lab",
 
-    "banner.text": "Més de 8 equips de recerca de disciplines diferents, treballant junts per afrontar els reptes climàtics",
+    "banner.text": "Diversos equips de recerca de disciplines diferents, treballant junts per afrontar els reptes climàtics",
 
     "science.eyebrow": "Enfocament",
     "science.title": "Ciència aplicada al que el territori necessita",
     "science.lead": "Cada repte connecta disciplines científiques amb actors locals per co-dissenyar solucions reals davant el canvi climàtic al sud de Catalunya.",
 
-    "ch1.tag": "CH1", "ch1.title": "Viticultura adaptada al clima",
+    "ch1.tag": "CH1", "ch1.title": "Vitivinicultura adaptada al clima",
     "ch1.text": "Estratègies per mantenir la producció de vi davant sequeres i fenòmens extrems, combinant dades climàtiques, pràctiques innovadores i gestió eficient del sòl i l'aigua.",
     "ch2.tag": "CH2", "ch2.title": "Aigua en un clima canviant",
     "ch2.text": "Gestió sostenible i inclusiva de l'aigua amb enfocament One Health, afavorint la reutilització d'aigües regenerades i una governança adaptativa.",
@@ -152,7 +152,7 @@ const TRANSLATIONS = {
 
     "hero.eyebrow": "URV · Camp de Tarragona · 2025–2028",
     "hero.title": "Hacer del sur de Cataluña un territorio resiliente frente al cambio climático",
-    "hero.lead": "Más de 8 equipos de investigación de la URV coordinados para diseñar estrategias de adaptación y mitigación frente al cambio climático, en colaboración directa con el territorio.",
+    "hero.lead": "Diversos equipos de investigación de la URV coordinados para diseñar estrategias de adaptación y mitigación frente al cambio climático, en colaboración directa con el territorio.",
     "hero.cta1": "Descubre los retos",
     "hero.cta2": "Conoce al equipo",
 
@@ -161,7 +161,7 @@ const TRANSLATIONS = {
     "stats.3.num": "5", "stats.3.label": "retos territoriales",
     "stats.4.num": "1", "stats.4.label": "Living Lab",
 
-    "banner.text": "Más de 8 equipos de investigación de distintas disciplinas, trabajando juntos para afrontar los retos climáticos",
+    "banner.text": "Diversos equipos de investigación de distintas disciplinas, trabajando juntos para afrontar los retos climáticos",
 
     "science.eyebrow": "Enfoque",
     "science.title": "Ciencia aplicada a lo que el territorio necesita",
