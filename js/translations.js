@@ -29,7 +29,7 @@ const TRANSLATIONS = {
     "science.title": "Ciència aplicada al que el territori necessita",
     "science.lead": "Cada repte connecta disciplines científiques amb actors locals per co-dissenyar solucions reals davant el canvi climàtic al sud de Catalunya.",
 
-    "ch1.tag": "CH1", "ch1.title": "Vitivinicultura adaptada al clima",
+    "ch1.tag": "CH1", "ch1.title": "Adaptació de la producció de vi al canvi climàtic",
     "ch1.text": "Estratègies per mantenir la producció de vi davant sequeres i fenòmens extrems, combinant dades climàtiques, pràctiques innovadores i gestió eficient del sòl i l'aigua.",
     "ch2.tag": "CH2", "ch2.title": "Aigua en un clima canviant",
     "ch2.text": "Gestió sostenible i inclusiva de l'aigua amb enfocament One Health, afavorint la reutilització d'aigües regenerades i una governança adaptativa.",
@@ -167,7 +167,7 @@ const TRANSLATIONS = {
     "science.title": "Ciencia aplicada a lo que el territorio necesita",
     "science.lead": "Cada reto conecta disciplinas científicas con actores locales para co-diseñar soluciones reales frente al cambio climático en el sur de Cataluña.",
 
-    "ch1.tag": "CH1", "ch1.title": "Vitivinicultura adaptada al clima",
+    "ch1.tag": "CH1", "ch1.title": "Adaptación de la producción de vino al cambio climático",
     "ch1.text": "Estrategias para mantener la producción de vino frente a sequías y fenómenos extremos, combinando datos climáticos, prácticas innovadoras y gestión eficiente del suelo y el agua.",
     "ch2.tag": "CH2", "ch2.title": "Agua en un clima cambiante",
     "ch2.text": "Gestión sostenible e inclusiva del agua con enfoque One Health, favoreciendo la reutilización de aguas regeneradas y una gobernanza adaptativa.",
@@ -299,7 +299,7 @@ const TRANSLATIONS = {
     "science.title": "Science applied to what the region needs",
     "science.lead": "Each challenge connects scientific disciplines with local stakeholders to co-design real solutions to climate change in southern Catalonia.",
 
-    "ch1.tag": "CH1", "ch1.title": "Climate-adapted viticulture",
+    "ch1.tag": "CH1", "ch1.title": "Adapting Wine Production to Climate Change",
     "ch1.text": "Strategies to sustain wine production under droughts and extreme events, combining climate data, innovative practices and efficient soil and water management.",
     "ch2.tag": "CH2", "ch2.title": "Water in a changing climate",
     "ch2.text": "Sustainable and inclusive water management with a One Health approach, favouring the reuse of regenerated water and adaptive governance.",
