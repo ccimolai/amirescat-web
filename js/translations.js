@@ -50,7 +50,7 @@ const TRANSLATIONS = {
     /* ---- Reptes / projecte ---- */
     "reptes.hero.eyebrow": "El projecte",
     "reptes.hero.title": "Un projecte transdisciplinari",
-    "reptes.hero.lead": "Des de climatologia fins a dret, passant per química, enginyeria, educació i turisme: la fortalesa d'AMIRESCAT és la suma de múltiples sabers treballant en xarxa. Més de 8 grups SGR de la URV treballen coordinats per abordar els reptes climàtics regionals.",
+    "reptes.hero.lead": "Des de climatologia fins a dret, passant per química, enginyeria, educació i turisme: la fortalesa d'AMIRESCAT és la suma de múltiples sabers treballant en xarxa. Diferents grups de la URV treballen coordinats per abordar els reptes climàtics regionals.",
 
     "reptes.ch.eyebrow": "Els 5 reptes",
     "reptes.ch.title": "Ciència aplicada al que el territori necessita",
@@ -187,7 +187,7 @@ const TRANSLATIONS = {
 
     "reptes.hero.eyebrow": "El proyecto",
     "reptes.hero.title": "Un proyecto transdisciplinar",
-    "reptes.hero.lead": "Desde climatología hasta derecho, pasando por química, ingeniería, educación y turismo: la fortaleza de AMIRESCAT es la suma de múltiples saberes trabajando en red. Más de 8 grupos SGR de la URV trabajan coordinados para abordar los retos climáticos regionales.",
+    "reptes.hero.lead": "Desde climatología hasta derecho, pasando por química, ingeniería, educación y turismo: la fortaleza de AMIRESCAT es la suma de múltiples saberes trabajando en red. Diferentes grupos de la URV trabajan coordinados para abordar los retos climáticos regionales.",
 
     "reptes.ch.eyebrow": "Los 5 retos",
     "reptes.ch.title": "Ciencia aplicada a lo que el territorio necesita",
@@ -293,7 +293,7 @@ const TRANSLATIONS = {
     "stats.3.num": "5", "stats.3.label": "territorial challenges",
     "stats.4.num": "1", "stats.4.label": "Living Lab",
 
-    "banner.text": "More than 8 research teams from different disciplines, working together to tackle climate challenges",
+    "banner.text": "Different research teams from different disciplines, working together to tackle climate challenges",
 
     "science.eyebrow": "Approach",
     "science.title": "Science applied to what the region needs",
@@ -319,7 +319,7 @@ const TRANSLATIONS = {
 
     "reptes.hero.eyebrow": "The project",
     "reptes.hero.title": "A transdisciplinary project",
-    "reptes.hero.lead": "From climatology to law, through chemistry, engineering, education and tourism: AMIRESCAT's strength lies in combining multiple fields of knowledge working as a network. More than 8 URV SGR groups work in coordination to tackle regional climate challenges.",
+    "reptes.hero.lead": "From climatology to law, through chemistry, engineering, education and tourism: AMIRESCAT's strength lies in combining multiple fields of knowledge working as a network. Different URV groups work in coordination to tackle regional climate challenges.",
 
     "reptes.ch.eyebrow": "The 5 challenges",
     "reptes.ch.title": "Science applied to what the region needs",
