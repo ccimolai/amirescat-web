@@ -93,7 +93,7 @@ const TRANSLATIONS = {
     "contacte.item3.label": "Àmbit territorial", "contacte.item3.value": "Sud de Catalunya",
     "contacte.coord.label": "Coordinació", "contacte.coord.value": "caterina.cimolai@urv.cat",
     "contacte.adreca.label": "Adreça", "contacte.adreca.value": "Facultat de Turisme i Geografia — Joanot Martorell 15, 43480 Vila-seca",
-    "contacte.correu.label": "Correu", "contacte.correu.value": "iurescat@urv.cat",
+    "contacte.correu.label": "Correu", "contacte.correu.value": "amirescat@urv.cat",
     "contacte.telefon.label": "Telèfon", "contacte.telefon.value": "977 297 950",
 
     /* ---- Taula reptes x objectius ---- */
@@ -228,7 +228,7 @@ const TRANSLATIONS = {
     "contacte.item3.label": "Ámbito territorial", "contacte.item3.value": "Sur de Cataluña",
     "contacte.coord.label": "Coordinación", "contacte.coord.value": "caterina.cimolai@urv.cat",
     "contacte.adreca.label": "Dirección", "contacte.adreca.value": "Facultad de Turismo y Geografía — Joanot Martorell 15, 43480 Vila-seca",
-    "contacte.correu.label": "Correo", "contacte.correu.value": "iurescat@urv.cat",
+    "contacte.correu.label": "Correo", "contacte.correu.value": "amirescat@urv.cat",
     "contacte.telefon.label": "Teléfono", "contacte.telefon.value": "977 297 950",
 
     "table.eyebrow": "Matriz del proyecto",
@@ -360,7 +360,7 @@ const TRANSLATIONS = {
     "contacte.item3.label": "Territorial scope", "contacte.item3.value": "Southern Catalonia",
     "contacte.coord.label": "Coordination", "contacte.coord.value": "caterina.cimolai@urv.cat",
     "contacte.adreca.label": "Address", "contacte.adreca.value": "Faculty of Tourism and Geography — Joanot Martorell 15, 43480 Vila-seca",
-    "contacte.correu.label": "Email", "contacte.correu.value": "iurescat@urv.cat",
+    "contacte.correu.label": "Email", "contacte.correu.value": "amirescat@urv.cat",
     "contacte.telefon.label": "Phone", "contacte.telefon.value": "977 297 950",
 
     "table.eyebrow": "Project matrix",
